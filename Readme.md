@@ -1,4 +1,4 @@
-# Installing
+# Installing with Node-Red
 
 ## 1. Install Node RED
 
@@ -33,4 +33,33 @@ Import *flow.json* in Node Red
 
 ``` bash
 ./bme680 -a localhost -i 5
+```
+
+# Instlling with plotly
+
+## Installation
+
+``` bash
+sudo apt install pip
+```
+
+``` bash
+pip3 install dash
+pip3 install jupyter-dash
+pip3 install pandas
+```
+
+Source: https://dash.plotly.com/installation
+
+## Running
+
+``` bash
+./bme680
+python3 app.py
+```
+
+Or with tmux:
+
+``` bash
+?? not yet finished, use tmux manually
 ```
